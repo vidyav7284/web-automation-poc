@@ -23,15 +23,25 @@ A Proof of Concept (POC) for end-to-end **web automation testing** using **Selen
 
 ## 🚀 Features
 
-✅ Automates an end-to-end **Amazon Add to Cart** user journey
-✅ Built using **Page Object Model (POM)** for better code organization
-✅ Uses **Cucumber** to define test scenarios in plain English (Gherkin)
-✅ Uses **TestNG** for test execution and reporting
-✅ **Reusable components** and modular test steps
-✅ Includes **assertions** and validations for robustness
-✅ Can be easily integrated into **CI/CD** pipelines
-✅ Simple to set up and run using **Maven**
-✅ Structured for **cross-browser** compatibility (Selenium Grid ready)
+
+✅ Automates an end-to-end Amazon Add to Cart user journey
+
+✅ Built using Page Object Model (POM) for better code organization
+
+✅ Uses Cucumber to define test scenarios in plain English (Gherkin)
+
+✅ Uses TestNG for test execution and reporting
+
+✅ Reusable components and modular test steps
+
+✅ Includes assertions and validations for robustness
+
+✅ Easily integrates into CI/CD pipelines
+
+✅ Simple to set up and run using Maven
+
+✅ Structured for cross-browser compatibility 
+
 ✅ Clean code and naming conventions for readability
 
 ---
@@ -51,30 +61,8 @@ A Proof of Concept (POC) for end-to-end **web automation testing** using **Selen
 ---
 
 🗂️ Project Structure
-├── src/
-│ ├── main/java/
-│ │ ├── drivermanager/
-│ │ │ └── DriverFactory.java
-│ │ ├── pages/
-│ │ │ ├── AddItemPage.java
-│ │ │ └── BasePage.java
-│ │ ├── utility/
-│ │ │ └── ReadProp.java
-│ │ └── PageFactoryManager.java
-│
-│ ├── test/java/
-│ │ └── addcardfeature/
-│ │ ├── AddItemToCardRunner.java
-│ │ ├── AddItemToCardSteps.java
-│ │ └── AppHooks.java
-│
-├── src/test/resources/
-│ └── addcardfeature/
-│ └── AddItemToCard.feature
-│
-├── config.properties
-├── pom.xml
-└── README.md
+![Demo Screenshot](https://github.com/user-attachments/assets/58a45044-2c70-4f48-a988-357bb421d26c)
+
 ---
 
 ## 📋  Feature File
