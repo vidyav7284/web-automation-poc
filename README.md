@@ -50,38 +50,8 @@ A Proof of Concept (POC) for end-to-end **web automation testing** using **Selen
 
 ---
 
-📁 Project Structure
-css
-Copy
-Edit
-web-automation-bdd-poc/
-│
-├── src/main/java
-│   ├── drivermanager/
-│   │   ├── DriverFactory.java
-│   │   └── PageFactoryManager.java
-│   └── pages/
-│       ├── AddItemPage.java
-│       └── BasePage.java
-│
-├── src/test/java
-│   ├── addcardfeature/
-│   │   ├── AddItemToCardRunner.java
-│   │   ├── AddItemToCardSteps.java
-│   │   └── AppHooks.java
-│   └── utility/
-│       └── ReadProp.java
-│
-├── src/test/resources
-│   ├── addcardfeature/
-│   │   └── AddItemToCard.feature
-│   └── config.properties
-│
-├── pom.xml
-└── README.md
-
-
-
+🗂️ Project Structure
+<pre> web-automation-bdd-poc/ ├── src/ │ ├── main/java/ │ │ ├── drivermanager/ │ │ │ └── DriverFactory.java │ │ ├── pages/ │ │ │ ├── AddItemPage.java │ │ │ └── BasePage.java │ │ ├── utility/ │ │ │ └── ReadProp.java │ │ └── PageFactoryManager.java │ │ ├── test/java/ │ │ ├── addcardfeature/ │ │ │ ├── AddItemToCardRunner.java │ │ │ ├── AddItemToCardSteps.java │ │ │ └── AppHooks.java │ ├── src/test/resources/ │ ├── addcardfeature/ │ │ └── AddItemToCard.feature │ ├── config.properties ├── pom.xml └── README.md </pre>
 ---
 
 ## 📋  Feature File
