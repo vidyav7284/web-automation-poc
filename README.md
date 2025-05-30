@@ -15,7 +15,7 @@ A Proof of Concept (POC) for end-to-end **web automation testing** using **Selen
 
 ## 🎥 Automation Flow (GIF)
 
-![Automation Flow](https://github.com/user-attachments/assets/250ffd14-ab1e-4f3c-9da2-8420b32349cf)
+![DemoVideo](https://github.com/user-attachments/assets/a6e5e6d7-fd3f-42ca-b060-b926a1857bc5)
 
 
 
