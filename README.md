@@ -50,8 +50,10 @@ A Proof of Concept (POC) for end-to-end **web automation testing** using **Selen
 
 ---
 
-## 🗂️ Project Structure
-
+📁 Project Structure
+css
+Copy
+Edit
 web-automation-bdd-poc/
 │
 ├── src/main/java
@@ -77,6 +79,7 @@ web-automation-bdd-poc/
 │
 ├── pom.xml
 └── README.md
+
 
 
 ---
@@ -154,5 +157,5 @@ This project is licensed under the [Apache 2.0 License](LICENSE).
 ## 👤 Author
 
 **Vidya Vanjare**  
-📧 [v.vanjare@gmail.com]  
+📧 v.vanjare@gmail.com
 📎 [LinkedIn](https://www.linkedin.com/in/vidya-vanjare)  
