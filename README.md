@@ -40,7 +40,13 @@ mvn test
 
 
 ---
+## 📊 Test Report
 
+![Test Report Screenshot](media/report.png)
+
+## 🎥 Demo Video
+
+[▶️ Click here to watch the demo video](media/demo.mp4)
 ## 📝 License
 
 Copyright [2024] [Vidya]
