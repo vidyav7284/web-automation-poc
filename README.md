@@ -40,13 +40,16 @@ mvn test
 
 
 ---
-## 📊 Test Report
+## Demo
 
-![Test Report Screenshot](media/report.png)
+Click below to view the demo video:
 
-## 🎥 Demo Video
+📹 [Demo Video](https://github.com/user-attachments/assets/250ffd14-ab1e-4f3c-9da2-8420b32349cf)
 
-[▶️ Click here to watch the demo video](media/demo.mp4)
+## Report
+
+📝 [Download the Report](https://github.com/user-attachments/assets/58a45044-2c70-4f48-a988-357bb421d26c)
+
 ## 📝 License
 
 Copyright [2024] [Vidya]
