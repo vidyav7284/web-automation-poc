@@ -1,32 +1,124 @@
-# Web Automation BDD POC using Selenium + Cucumber + TestNG
 
-This project demonstrates BDD automation using:
-- Cucumber (Gherkin syntax)
-- Selenium WebDriver
-- TestNG
-- Java + Maven
+
+# 🧪 Web Automation POC
+
+A Proof of Concept (POC) for end-to-end **web automation testing** using **Selenium**, **Cucumber BDD**, **TestNG**, and the **Page Object Model (POM)**. This project simulates a real-world e-commerce flow — validating the *Add to Cart* functionality — and is structured to be readable, reusable, and scalable.
+
+🔗 **GitHub Repository:** [web-automation-poc](https://github.com/vidyav7284/web-automation-poc)
 
 ---
 
-## 📌 Feature: Add to Cart Functionality
+## 📸 Project Execution Report
+
+![Demo Screenshot](https://github.com/user-attachments/assets/58a45044-2c70-4f48-a988-357bb421d26c)
+
+
+## 🎥 Automation Flow (GIF)
+
+![Automation Flow](https://github.com/user-attachments/assets/250ffd14-ab1e-4f3c-9da2-8420b32349cf)
+
+
+
+---
+
+## 🚀 Features
+
+✅ Automates an end-to-end **Amazon Add to Cart** user journey
+✅ Built using **Page Object Model (POM)** for better code organization
+✅ Uses **Cucumber** to define test scenarios in plain English (Gherkin)
+✅ Uses **TestNG** for test execution and reporting
+✅ **Reusable components** and modular test steps
+✅ Includes **assertions** and validations for robustness
+✅ Can be easily integrated into **CI/CD** pipelines
+✅ Simple to set up and run using **Maven**
+✅ Structured for **cross-browser** compatibility (Selenium Grid ready)
+✅ Clean code and naming conventions for readability
+
+---
+
+## 🔧 Technologies Used
+
+| Tool/Library     | Purpose                       |
+| ---------------- | ----------------------------- |
+| **Java**         | Programming Language          |
+| **Selenium**     | Web Automation Framework      |
+| **Cucumber BDD** | Behavior Driven Testing       |
+| **TestNG**       | Test Framework                |
+| **Maven**        | Dependency & Build Management |
+| **Eclipse IDE**  | Development Environment       |
+| **Gherkin**      | Feature File Language         |
+
+---
+
+## 🗂️ Project Structure
+
+web-automation-bdd-poc/
+│
+├── src/main/java
+│   ├── drivermanager/
+│   │   ├── DriverFactory.java
+│   │   └── PageFactoryManager.java
+│   └── pages/
+│       ├── AddItemPage.java
+│       └── BasePage.java
+│
+├── src/test/java
+│   ├── addcardfeature/
+│   │   ├── AddItemToCardRunner.java
+│   │   ├── AddItemToCardSteps.java
+│   │   └── AppHooks.java
+│   └── utility/
+│       └── ReadProp.java
+│
+├── src/test/resources
+│   ├── addcardfeature/
+│   │   └── AddItemToCard.feature
+│   └── config.properties
+│
+├── pom.xml
+└── README.md
+
+
+---
+
+## 📋  Feature File
 
 ```gherkin
-Scenario: Validate adding an item to the cart from start to end
+Feature: Add to Cart Functionality
+
+  Scenario: Validate adding an item to the cart from start to end
     Given the user is on the home page
     When the user selects "Kindle Store" from the category
     And clicks on the search icon
     And selects the checkbox for KindleUnlimitedEligible
     And sorts the results by "Best Sellers"
-    And clicks on the first book in the results
-    And clicks on the addCart button
-    Then the book should be added to the cart
+    Then the user adds the first item to the cart
+    And verifies the item is added successfully
 ```
 
 ---
 
-## ▶️ Run the Tests
+## 🧪 How to Run Locally
 
-Use the following command in the terminal:
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/vidyav7284/web-automation-poc.git
+```
+
+### 2. Import into Eclipse
+
+* Open Eclipse.
+* File → Import → Existing Maven Project → Select folder.
+
+### 3. Install dependencies
+
+Maven will automatically resolve dependencies from `pom.xml`.
+
+### 4. Execute Tests
+
+* Run the `TestNG` suite or a specific runner class.
+* You can also run via command line:
 
 ```bash
 mvn test
@@ -34,34 +126,33 @@ mvn test
 
 ---
 
-## 📁 Project Name
+## ✅ Best Practices Followed
 
-`web-automation-poc`
-
+* ✅ Page Object Model (POM)
+* ✅ Layered architecture (Test → Steps → Pages)
+* ✅ Reusable selectors and methods
+* ✅ Descriptive method and class names
+* ✅ Gherkin language for human-readable tests
 
 ---
-## Demo
 
-Click below to view the demo video:
+## 📎 Resources
 
-📹 [Demo Video](https://github.com/user-attachments/assets/250ffd14-ab1e-4f3c-9da2-8420b32349cf)
+* [Selenium Documentation](https://www.selenium.dev/documentation/)
+* [Cucumber Docs](https://cucumber.io/docs/)
+* [TestNG Docs](https://testng.org/doc/)
+* [Maven Guide](https://maven.apache.org/guides/index.html)
 
-## Report
+---
 
-📝 [Download the Report](https://github.com/user-attachments/assets/58a45044-2c70-4f48-a988-357bb421d26c)
+## 📄 License
 
-## 📝 License
+This project is licensed under the [Apache 2.0 License](LICENSE).
 
-Copyright [2024] [Vidya]
+---
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+## 👤 Author
 
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+**Vidya Vanjare**  
+📧 [v.vanjare@gmail.com]  
+📎 [LinkedIn](https://www.linkedin.com/in/vidya-vanjare)  
