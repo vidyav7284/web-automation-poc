@@ -61,7 +61,7 @@ A Proof of Concept (POC) for end-to-end **web automation testing** using **Selen
 ---
 
 🗂️ Project Structure
-![Demo Screenshot](https://github.com/user-attachments/assets/58a45044-2c70-4f48-a988-357bb421d26c)
+![ProjectSrructure](https://github.com/user-attachments/assets/85aef52d-0805-43ba-99d1-216e2b8a4401)
 
 ---
 
